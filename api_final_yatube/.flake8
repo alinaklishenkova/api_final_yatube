@@ -1,0 +1,17 @@
+[flake8]
+exclude = 
+    venv311,
+    venv,
+    .git,
+    __pycache__,
+    migrations,
+    .vscode,
+    *.pyc,
+    manage.py
+max-line-length = 79
+ignore = 
+    W291,
+    W293,
+    W391,
+    E501,
+    F401
